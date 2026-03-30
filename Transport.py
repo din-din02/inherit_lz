@@ -23,7 +23,7 @@ class Car(Vehicle):
         print('Тип топлива:', self.fuel_type)
         print('Максимальная скорость:', self.max_speed)
         print('Объём двигателя (см³):', self.engine_capacity)
-        print('Угловая скорость (об/мин):', self.rotation_speed)
+        print('Угловая скорость (об/ мин):', self.rotation_speed)
         
     def engine_power_calc(self):
         power = (self.engine_capacity * self.rotation_speed) / 9550
