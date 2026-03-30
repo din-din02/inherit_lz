@@ -9,5 +9,5 @@ def main():
     dog = Dog(name,age,species,breed,guard_status)
     dog.info()
     dog.guard_house()
-if __name__ == '__main1__':
+if __name__ == '__main__':
     main()
