@@ -2,7 +2,7 @@ from Transport import Car
 
 
 def main():
-    print('Введите данные машины:')
+    print('Введите данные машины: ')
     brand = input("Бренд: ")
     model = input("Модель: ")
     year = int(input("Год выпуска: "))
